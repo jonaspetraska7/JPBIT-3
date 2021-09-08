@@ -28,6 +28,12 @@ namespace Pergale
             if (rezultatas1 >= rezultatas2)
             {
                 Console.WriteLine("Zalgiris laimes eurolyga");
+                Console.WriteLine();
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.WriteLine("ŽALGIRIS");
+                    Console.WriteLine("***");
+                }
             }
             else
             {
@@ -36,7 +42,8 @@ namespace Pergale
 
             Console.ReadLine();
                 
-                }
+        }
+
         
     }
       
