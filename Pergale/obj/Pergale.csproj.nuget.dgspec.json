@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {}
+    "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {
+    "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
+        "projectUniqueName": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
         "projectName": "Pergale",
-        "projectPath": "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
-        "packagesPath": "C:\\Users\\migle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\obj\\",
+        "projectPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
+        "packagesPath": "C:\\Users\\RYZAS10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\migle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RYZAS10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
