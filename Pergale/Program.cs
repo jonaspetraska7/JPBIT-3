@@ -1,5 +1,5 @@
 ﻿using System;
-/*Labai šauni programa*/
+/*Labai šauni programasdasdasdasd*/
 namespace Pergale
 {
     class Program
