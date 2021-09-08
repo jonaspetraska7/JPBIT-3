@@ -12,6 +12,10 @@ namespace Pergale
             {
                 Console.WriteLine("Germantas");
             }
+            for (int i = 0; i < 20; i++)
+            {
+                Console.WriteLine(i);
+            }
             Console.WriteLine("Iveskite Pirmaji skaiciu:");
             int Skaicius1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Iveskite Antraji skaiciu:");
