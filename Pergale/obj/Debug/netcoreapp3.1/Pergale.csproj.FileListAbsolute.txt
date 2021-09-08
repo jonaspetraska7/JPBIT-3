@@ -1,0 +1,14 @@
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.csproj.AssemblyReference.cache
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.AssemblyInfoInputs.cache
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.AssemblyInfo.cs
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.csproj.CoreCompileInputs.cache
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\bin\Debug\netcoreapp3.1\Pergale.exe
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\bin\Debug\netcoreapp3.1\Pergale.deps.json
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\bin\Debug\netcoreapp3.1\Pergale.runtimeconfig.json
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\bin\Debug\netcoreapp3.1\Pergale.runtimeconfig.dev.json
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\bin\Debug\netcoreapp3.1\Pergale.dll
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\bin\Debug\netcoreapp3.1\Pergale.pdb
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.dll
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.pdb
+C:\Users\g\Desktop\JIRA\Pergale\Pergale\obj\Debug\netcoreapp3.1\Pergale.genruntimeconfig.cache
