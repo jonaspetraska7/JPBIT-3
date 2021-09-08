@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\RYZAS10\\.nuget\\packages\\": {}
+    "C:\\Users\\migle\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
+      "projectUniqueName": "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
       "projectName": "Pergale",
-      "projectPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
-      "packagesPath": "C:\\Users\\RYZAS10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\obj\\",
+      "projectPath": "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
+      "packagesPath": "C:\\Users\\migle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\migle\\OneDrive\\Documents\\GitHub\\JPBIT-3\\Pergale\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RYZAS10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\migle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
