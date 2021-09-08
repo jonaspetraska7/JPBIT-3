@@ -5,7 +5,13 @@ namespace Pergale
     class Program
     {
         static void Main(string[] args)
+
         {
+            for (int i = 1; i < 100; i++)
+               
+            {
+                Console.WriteLine("Germantas");
+            }
             Console.WriteLine("Iveskite Pirmaji skaiciu:");
             int Skaicius1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Iveskite Antraji skaiciu:");

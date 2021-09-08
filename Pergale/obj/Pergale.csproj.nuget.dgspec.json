@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Neo\\Videos\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {}
+    "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Neo\\Videos\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {
+    "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Neo\\Videos\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
+        "projectUniqueName": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
         "projectName": "Pergale",
-        "projectPath": "C:\\Users\\Neo\\Videos\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
-        "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Neo\\Videos\\Documents\\GitHub\\JPBIT-3\\Pergale\\obj\\",
+        "projectPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\Pergale.csproj",
+        "packagesPath": "C:\\Users\\RYZAS10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RYZAS10\\Documents\\GitHub\\JPBIT-3\\Pergale\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RYZAS10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
