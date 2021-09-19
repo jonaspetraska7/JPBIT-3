@@ -47,6 +47,12 @@ namespace Pergale
             Console.ReadLine();
                 
                 }
+        static void FutbolasGeriau(int x, int y) 
+        {
+            int suma = x + y;
+            if x == y;
+            Console.WriteLine("Futbola nuobodu tik stebeti");
+        }
         
     }
       
