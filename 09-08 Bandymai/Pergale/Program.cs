@@ -46,12 +46,7 @@ namespace Pergale
 
             Console.ReadLine();
                 
-         }
-
-        static void FutbolasGeriau(int x, int y) 
-        {
-            int suma = x + y;
-        }
+                }
         
     }
       
