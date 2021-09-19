@@ -46,7 +46,12 @@ namespace Pergale
 
             Console.ReadLine();
                 
-                }
+         }
+
+        static void GalGeriauZaistFule(int x, int y) 
+        {
+            int suma = x + y;
+        }
         
     }
       
