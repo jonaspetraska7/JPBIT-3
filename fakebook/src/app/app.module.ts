@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PvzComponent } from './komponentai/pvz/pvz.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PvzComponent
   ],
   imports: [
     BrowserModule,
