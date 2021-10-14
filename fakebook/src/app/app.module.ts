@@ -6,8 +6,12 @@ import { AppComponent } from './app.component';
 
 import { MeniuComponent } from './komponentai/meniu/meniu.component';
 import { PagrindinispuslapisComponent } from './puslapiai/pagrindinispuslapis/pagrindinispuslapis.component';
+
+import { StoryMeniuComponent } from './komponentai/story-meniu/story-meniu.component';
+
 import { KairinisMeniuComponent } from './komponentai/kairinis-meniu/kairinis-meniu.component';
 import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes-ivedimas.component';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +21,8 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
     PagrindinispuslapisComponent,
     KairinisMeniuComponent,
     ZinutesIvedimasComponent
+    StoryMeniuComponent,
+    KairinisMeniuComponent
   ],
   imports: [
     BrowserModule,

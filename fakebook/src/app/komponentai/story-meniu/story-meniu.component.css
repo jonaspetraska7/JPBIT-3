@@ -1,0 +1,49 @@
+.kortele {
+    height: 200px;
+    width: 120px;
+    background-color: #F2F3F5;
+    margin: 10px;
+    border-radius: 20px;
+    text-align:center;
+    color: white;
+    
+
+
+}
+.karkasas{
+    width: 700px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+
+    
+    
+}
+.sukurti {
+    height: 200px;
+    width: 120px;
+    background-color: #F2F3F5;
+    margin: 10px;
+    border-radius: 20px;
+    text-align:center;
+    color: black;
+    bottom: 10px;
+
+}
+
+.prideti {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #1877F2;
+  border-radius: 50%;
+  color: white;
+  
+  
+
+}
+.img{
+    height:100%; 
+    width: 100%; 
+    object-fit: contain
+}
