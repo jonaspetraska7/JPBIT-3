@@ -1,0 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
+
+.skirtukas{
+    background-color: rgb(240,242,245);
+    height: 16px;
+}
+.profilio-nuotrauka{
+    
+    font-size: 30px;
+    color: rgb(240,242,245);
+    padding-bottom: 5px;
+}
+.input-laukelis{
+    padding-left: 20px;
+}
+.bi-camera-video-fill{
+    font-size: 25px;
+    color: #f02849;
+}
+
+.bi-images{
+    font-size: 25px;
+    color: #45bd62;
+}
+.mygtukai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mygtuko-tekstas{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: -4px;
+    padding-left: 7px;
+}
+.mygtukas-atskiras{
+    width: auto;
+}
