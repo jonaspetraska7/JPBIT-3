@@ -10,6 +10,7 @@ import { PagrindinispuslapisComponent } from './puslapiai/pagrindinispuslapis/pa
 import { StoryMeniuComponent } from './komponentai/story-meniu/story-meniu.component';
 
 import { KairinisMeniuComponent } from './komponentai/kairinis-meniu/kairinis-meniu.component';
+import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes-ivedimas.component';
 
 
 @NgModule({
@@ -18,6 +19,8 @@ import { KairinisMeniuComponent } from './komponentai/kairinis-meniu/kairinis-me
 
     MeniuComponent,
     PagrindinispuslapisComponent,
+    KairinisMeniuComponent,
+    ZinutesIvedimasComponent,
     StoryMeniuComponent,
     KairinisMeniuComponent
   ],
