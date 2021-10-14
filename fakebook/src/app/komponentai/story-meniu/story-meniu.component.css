@@ -1,3 +1,38 @@
+.karkasas{
+    width: 700px;
+    height: 220px;
+    display: flex;
+    background-color: #f7f7f7;  
+}
+
+.sukurti {
+    height: 200px;
+    width: 120px;
+    background-color: #F2F3F5;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.create{
+    position: absolute;
+    color: black;
+    left: 23px;
+
+}
+
+.prideti {
+  position: absolute;
+  border: none;
+  height: 30px;
+  width: 30px;
+  background-color: #1877F2;
+  border-radius: 50%;
+  color: white;
+  top:138px;
+  left:45px;
+}
+
 .kortele {
     height: 200px;
     width: 120px;
@@ -5,45 +40,25 @@
     margin: 10px;
     border-radius: 20px;
     text-align:center;
-    color: white;
-    
-
-
-}
-.karkasas{
-    width: 700px;
-    height: 340px;
-    display: flex;
-    flex-direction: row;
-
-    
-    
-}
-.sukurti {
-    height: 200px;
-    width: 120px;
-    background-color: #F2F3F5;
-    margin: 10px;
-    border-radius: 20px;
-    text-align:center;
-    color: black;
-    bottom: 10px;
-
+    color: white; 
+    position: relative;  
 }
 
-.prideti {
-  position: absolute;
-  height: 25px;
-  width: 25px;
-  background-color: #1877F2;
-  border-radius: 50%;
-  color: white;
-  
-  
-
-}
 .img{
-    height:100%; 
-    width: 100%; 
-    object-fit: contain
+    
+    border-radius: 10px;
+    border: none;
+    height:200px; 
+    width: 120px;
+}
+ p {
+    position: absolute;
+    top: 170px;
+    left: 10%;
+    font-size: 14px;
+    font-weight: 600;
+
+    
+    
+    
 }
