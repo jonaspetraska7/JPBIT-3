@@ -12,6 +12,7 @@ import { StoryMeniuComponent } from './komponentai/story-meniu/story-meniu.compo
 import { KairinisMeniuComponent } from './komponentai/kairinis-meniu/kairinis-meniu.component';
 import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes-ivedimas.component';
 
+import { DrauguSarasasComponent } from './komponentai/draugu-sarasas/draugu-sarasas.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
     KairinisMeniuComponent,
     ZinutesIvedimasComponent,
     StoryMeniuComponent,
-    KairinisMeniuComponent
+    KairinisMeniuComponent,
+    DrauguSarasasComponent,
   ],
   imports: [
     BrowserModule,
