@@ -20,7 +20,7 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
     MeniuComponent,
     PagrindinispuslapisComponent,
     KairinisMeniuComponent,
-    ZinutesIvedimasComponent
+    ZinutesIvedimasComponent,
     StoryMeniuComponent,
     KairinisMeniuComponent
   ],
