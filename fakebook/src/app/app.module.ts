@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PvzComponent } from './komponentai/pvz/pvz.component';
+
+import { MeniuComponent } from './komponentai/meniu/meniu.component';
+import { PagrindinispuslapisComponent } from './puslapiai/pagrindinispuslapis/pagrindinispuslapis.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PvzComponent
+
+    MeniuComponent,
+    PagrindinispuslapisComponent
   ],
   imports: [
     BrowserModule,
