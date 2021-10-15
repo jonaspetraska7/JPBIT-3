@@ -15,7 +15,8 @@ const routes: Routes = [
   {path: 's1', component: StoryMeniuComponent},
   {path: 'z1', component: ZinutesIvedimasComponent},
   {path: 'm1', component: MeniuComponent},
-  {path: 'g1', component: FeedasComponent}
+  {path: 'g1', component: FeedasComponent},
+  {path: 'p1', component: PagrindinispuslapisComponent}
    
 ];
 
