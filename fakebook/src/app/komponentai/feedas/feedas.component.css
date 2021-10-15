@@ -2,14 +2,17 @@ body {
     color: #797979;
     background: #ddd;
     font-family: 'Open Sans', sans-serif;
-    padding: 0px !important;
-    margin: 0px !important;
+    padding: 0px;
+    margin: 0px;
     font-size: 13px;
-    margin-top:20px;
+}
+
+.panel {
     border-radius: 25px;
-    padding: 20px; 
-    width: 50px;
-    height: 50px;  
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .panel-body {
@@ -73,7 +76,6 @@ max-height:280px;
 
 .fb-name h2 a {
     color: #FFFFFF;
-    text-rendering: optimizelegibility;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
     font-size: 25px;
 }
@@ -229,5 +231,5 @@ max-height:280px;
 }
 
 .recent-highlight {
-    background: #FF6C60 !important;
+    background: #FF6C60;
 }
