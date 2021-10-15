@@ -2,15 +2,32 @@
     width: 700px;
     height: 220px;
     display: flex;
-    background-color: #f7f7f7;  
+    background-color: #f7f7f7; 
+    position: relative; 
+}
+.mgt{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 675px;
+    top: 83px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 10px grey;
+    
+}
+.mgt:hover{
+    background-color: rgb(240, 232, 232);
+    
 }
 
 .sukurti {
     height: 200px;
     width: 120px;
-    background-color: #F2F3F5;
+    background-color: rgba(209, 208, 208, 0.938);
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     
 }
@@ -21,27 +38,22 @@
 
 }
 
-.prideti {
-  position: absolute;
-  border: none;
-  height: 30px;
-  width: 30px;
-  background-color: #1877F2;
-  border-radius: 50%;
-  color: white;
-  top:138px;
-  left:45px;
-}
-
 .kortele {
     height: 200px;
     width: 120px;
-    background-color: #F2F3F5;
+    background-color: gray;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align:center;
     color: white; 
-    position: relative;  
+    position: relative;
+     
+}
+.kortele :hover, .sukurti :hover{
+
+    transform: scale(1.03);
+    opacity: 0.5;
+    
 }
 
 .img{
@@ -50,15 +62,13 @@
     border: none;
     height:200px; 
     width: 120px;
+    
 }
  p {
     position: absolute;
     top: 170px;
     left: 10%;
     font-size: 14px;
-    font-weight: 600;
-
-    
-    
-    
+    font-weight: 600;  
 }
+
