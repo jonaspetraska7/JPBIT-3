@@ -4,6 +4,23 @@
     background-color: rgb(240,242,245);
     height: 16px;
 }
+.backgroud{
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(240,242,245);
+    width: 100%;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-3{
+    background-color: #fff;
+    max-width: 650px;
+    min-width: 508px;
+    border-radius: 10px;
+    padding-bottom: 0px!important;
+}
 .profilio-nuotrauka{
     
     font-size: 30px;
@@ -22,10 +39,16 @@
     font-size: 25px;
     color: #45bd62;
 }
+.mygtuko_hoveriui{
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+}
 .mygtukai{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
 }
 .mygtuko-tekstas{
     font-size: 15px;
@@ -36,4 +59,13 @@
 }
 .mygtukas-atskiras{
     width: auto;
+    height: 25px;
+    margin: 5px;
+
+}
+.mygtuko_hoveriui:hover{
+    background-color: rgb(240,242,245);
+}
+hr{
+    margin: 5px;
 }
