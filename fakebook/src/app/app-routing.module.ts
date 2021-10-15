@@ -6,6 +6,7 @@ import { MeniuComponent } from './komponentai/meniu/meniu.component';
 import { StoryMeniuComponent } from './komponentai/story-meniu/story-meniu.component';
 import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes-ivedimas.component';
 import { PagrindinispuslapisComponent } from './puslapiai/pagrindinispuslapis/pagrindinispuslapis.component';
+import { FeedasComponent } from './komponentai/feedas/feedas.component';
 
 const routes: Routes = [
   {path: '', component: PagrindinispuslapisComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'k1', component: KairinisMeniuComponent},
   {path: 's1', component: StoryMeniuComponent},
   {path: 'z1', component: ZinutesIvedimasComponent},
-  {path: 'm1', component: MeniuComponent}
+  {path: 'm1', component: MeniuComponent},
+  {path: 'g1', component: FeedasComponent}
    
 ];
 
