@@ -1,0 +1,51 @@
+.login{
+    margin: auto;
+    background-color: rgb(234, 234, 236);
+    height: 700px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    transition-duration: 0.5s;
+}
+input:hover{
+    box-shadow: rgb(189, 189, 212);
+    
+}
+
+.btnLogin{
+    background-color: rgb(36, 160, 237);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.btnRegister{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    transition-duration: 0.5s;
+}
+
+.btnLogin:hover{
+    background-color: rgb(19, 131, 201);
+}
+
+.btnRegister:hover{
+    text-decoration: underline;
+}
+
+a{
+    margin: auto;
+    text-align: center;
+} 

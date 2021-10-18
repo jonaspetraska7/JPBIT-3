@@ -15,6 +15,8 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
 import { DrauguSarasasComponent } from './komponentai/draugu-sarasas/draugu-sarasas.component';
 import { FeedasComponent } from './komponentai/feedas/feedas.component';
 
+import { LoginComponent } from './komponentai/login/login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +29,7 @@ import { FeedasComponent } from './komponentai/feedas/feedas.component';
     KairinisMeniuComponent,
     DrauguSarasasComponent,
     FeedasComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
