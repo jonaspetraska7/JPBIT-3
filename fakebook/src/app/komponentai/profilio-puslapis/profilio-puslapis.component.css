@@ -24,7 +24,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    overflow: hidden;
+    
     
 
 }
@@ -46,4 +46,17 @@
     padding-left: 12px;
     bottom: 12px;
     right: 12px;
+}
+.profilis_vardas{
+    display: block;
+}
+.profilio_nuotrauka_img{
+    position: absolute;
+    top: 387px;
+    left: 10px;
+    border: solid 4px #fff;
+    height: 175px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
 }
