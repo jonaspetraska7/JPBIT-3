@@ -8,6 +8,7 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
 import { PagrindinispuslapisComponent } from './puslapiai/pagrindinispuslapis/pagrindinispuslapis.component';
 import { FeedasComponent } from './komponentai/feedas/feedas.component';
 import { LoginComponent } from './komponentai/login/login.component';
+import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profilio-puslapis.component';
 
 const routes: Routes = [
   {path: '', component: PagrindinispuslapisComponent},
@@ -18,8 +19,8 @@ const routes: Routes = [
   {path: 'm1', component: MeniuComponent},
   {path: 'g1', component: FeedasComponent},
   {path: 'p1', component: PagrindinispuslapisComponent},
-  {path: 'l1', component: LoginComponent}
-   
+  {path: 'l1', component: LoginComponent},
+  {path: 'a1', component: ProfilioPuslapisComponent}
 ];
 
 @NgModule({

@@ -14,6 +14,7 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
 
 import { DrauguSarasasComponent } from './komponentai/draugu-sarasas/draugu-sarasas.component';
 import { FeedasComponent } from './komponentai/feedas/feedas.component';
+import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profilio-puslapis.component';
 
 import { LoginComponent } from './komponentai/login/login.component';
 
@@ -30,6 +31,7 @@ import { LoginComponent } from './komponentai/login/login.component';
     DrauguSarasasComponent,
     FeedasComponent,
     LoginComponent,
+    ProfilioPuslapisComponent,
   ],
   imports: [
     BrowserModule,
