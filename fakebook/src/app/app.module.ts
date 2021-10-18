@@ -14,6 +14,7 @@ import { ZinutesIvedimasComponent } from './komponentai/zinutes-ivedimas/zinutes
 
 import { DrauguSarasasComponent } from './komponentai/draugu-sarasas/draugu-sarasas.component';
 import { FeedasComponent } from './komponentai/feedas/feedas.component';
+import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profilio-puslapis.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FeedasComponent } from './komponentai/feedas/feedas.component';
     KairinisMeniuComponent,
     DrauguSarasasComponent,
     FeedasComponent,
+    ProfilioPuslapisComponent,
   ],
   imports: [
     BrowserModule,
