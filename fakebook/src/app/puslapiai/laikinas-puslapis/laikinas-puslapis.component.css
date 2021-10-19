@@ -1,21 +1,22 @@
-*{
-    margin: 0;
-    margin-left: 180px;
+
     
-}
+
 .laikinasPuslapis{
-    position: absolute;
-    background-color: white;
-   
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
+    margin-left: 150px;
+    background-image: url(../../../assets/laikinasPuslapis/SeekPng.com_website-under-construction-png_668689.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
 
 
 
 
+}
+
+.statybuFoto{
+   
+
+    
 }
