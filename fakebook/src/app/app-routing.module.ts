@@ -22,7 +22,7 @@ const routes: Routes = [
   {path: 'p1', component: PagrindinispuslapisComponent},
   {path: 'l1', component: LoginComponent},
   {path: 'a1', component: ProfilioPuslapisComponent},
-  {path:'laikinas',component: LaikinasPuslapisComponent}
+  {path:'lkn',component: LaikinasPuslapisComponent}
 ];
 
 @NgModule({
