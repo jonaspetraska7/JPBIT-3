@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { DrauguSarasasComponent } from './draugu-sarasas.component';
 
 describe('DrauguSarasasComponent', () => {

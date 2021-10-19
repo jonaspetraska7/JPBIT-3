@@ -51,5 +51,6 @@ input{
 }
 
 a{
-    margin: auto;
+    display: flex;
+    justify-content: center;
 } 
