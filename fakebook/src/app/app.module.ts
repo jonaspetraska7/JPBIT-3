@@ -17,6 +17,8 @@ import { FeedasComponent } from './komponentai/feedas/feedas.component';
 import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profilio-puslapis.component';
 
 import { LoginComponent } from './komponentai/login/login.component';
+import { LaikinasPuslapisComponent } from './puslapiai/laikinas-puslapis/laikinas-puslapis.component';
+
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { LoginComponent } from './komponentai/login/login.component';
     FeedasComponent,
     LoginComponent,
     ProfilioPuslapisComponent,
+    LaikinasPuslapisComponent,
+ 
   ],
   imports: [
     BrowserModule,
