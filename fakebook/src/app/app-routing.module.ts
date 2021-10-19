@@ -9,6 +9,7 @@ import { PagrindinispuslapisComponent } from './puslapiai/pagrindinispuslapis/pa
 import { FeedasComponent } from './komponentai/feedas/feedas.component';
 import { LoginComponent } from './komponentai/login/login.component';
 import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profilio-puslapis.component';
+import { LaikinasPuslapisComponent } from './puslapiai/laikinas-puslapis/laikinas-puslapis.component';
 
 const routes: Routes = [
   {path: '', component: PagrindinispuslapisComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path: 'g1', component: FeedasComponent},
   {path: 'p1', component: PagrindinispuslapisComponent},
   {path: 'l1', component: LoginComponent},
-  {path: 'a1', component: ProfilioPuslapisComponent}
+  {path: 'a1', component: ProfilioPuslapisComponent},
+  {path:'lkn',component: LaikinasPuslapisComponent}
 ];
 
 @NgModule({
