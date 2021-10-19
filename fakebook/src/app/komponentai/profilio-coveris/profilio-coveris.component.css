@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.coverioNuotrauka, 
+.cover__mygtukas, 
+.profilio_nuotrauka_img, 
+nav, 
+.line,
+.profilis_vardas,
+.vardo_mygtukai{
+    position: absolute;
+}
+.profilio_headeris{
+    display: flex;
+    background-color: rgb(34, 100, 34);
+    width: 100vw;
+    flex-direction: column;
+
+}
+.coverioNuotrauka{
+    display: flex;
+    width: 1250px;
+    border-radius: 15px;
+    z-index: 0;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    
+    
+
+}
+.cover__nuotrauka{
+    align-self: center;
+    width: 100%;
+    height: 470px;
+    width: 1250px;
+}
+.cover_nuotrauka_container{
+    display: flex;
+}
+.cover__mygtukas{
+    display: flex;
+    z-index: 0;
+    
+    height: 36px;
+    padding-left: 12px;
+    bottom: 12px;
+    right: 12px;
+}
+.cover__mygtukas, .cover_vardo_mygtukai{
+    border-radius: 7px;
+} 
+.profilis_vardas{
+    display: flex;
+    top: 508px;
+    left: 200px;
+}
+.vardo_mygtukai{
+    top: 486px;
+}
+.cover_vardo_mygtukai{
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.bi{
+    padding-right: 5px;
+}
+.profilio_nuotrauka_img{
+    top: 387px;
+    left: 10px;
+    border: solid 4px #fff;
+    height: 175px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    top: 600px;
+    padding-left: 20px;
+}
+.nav-item{
+    color: rgb(105,107,111);
+}
+.line{
+    top: 584px;
+    width: 1235px;
+    padding-left: 20px;
+}

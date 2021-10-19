@@ -20,6 +20,8 @@ import { LoginComponent } from './komponentai/login/login.component';
 import { LaikinasPuslapisComponent } from './puslapiai/laikinas-puslapis/laikinas-puslapis.component';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ProfilioCoverisComponent } from './komponentai/profilio-coveris/profilio-coveris.component';
+import { ProfilisAboutComponent } from './komponentai/profilis-about/profilis-about.component';
 
 
 
@@ -40,6 +42,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     ProfilioPuslapisComponent,
     LaikinasPuslapisComponent,
     
+    ProfilioCoverisComponent,
+    ProfilisAboutComponent,
  
   ],
   imports: [
