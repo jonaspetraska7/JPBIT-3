@@ -18,6 +18,8 @@ import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profi
 
 import { LoginComponent } from './komponentai/login/login.component';
 import { LaikinasPuslapisComponent } from './puslapiai/laikinas-puslapis/laikinas-puslapis.component';
+import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 
@@ -37,11 +39,15 @@ import { LaikinasPuslapisComponent } from './puslapiai/laikinas-puslapis/laikina
     LoginComponent,
     ProfilioPuslapisComponent,
     LaikinasPuslapisComponent,
+    
  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng2SearchPipeModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
