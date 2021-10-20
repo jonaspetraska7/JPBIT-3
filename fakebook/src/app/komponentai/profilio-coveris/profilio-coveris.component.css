@@ -24,16 +24,13 @@ nav,
     width: 1250px;
     border-radius: 15px;
     z-index: 0;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    
-    
-
-}
+    }
 .cover__nuotrauka{
     align-self: center;
     width: 100%;
