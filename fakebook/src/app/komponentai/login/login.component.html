@@ -14,16 +14,36 @@
     <a href="reset password">Forgot Password?</a>
     <div class="line"></div>
     <br>
-    <button class="btnRegister">Create New Account</button>
+    <button class="btnRegister" type="button" (click)="popup = true">Create New Account</button>
     <br>
   </div>
+
+  <div class="overlay" *ngIf="popup">
+    <div class="popup">
+      <h2>Prisiregistruok ir uzmirsi tikrus draugus</h2>
+      <a class="close" (click)="popup = false">&times;</a>
+      <div class="content">
+        <p>Jei neturi draugu, cia ju ir nerasi</p>
+        <div class="issokimas" ><input type="text" placeholder="Vardas"><input type="text" placeholder="Pavarde" ></div>
+        <div class="issokimas" ><input type="tel" placeholder="Mobylka"></div>
+        <div class="issokimas" ><input type="email" placeholder="Gmail'as ir tik gmail'as"></div>
+        <div class="issokimas" ><input type="text" placeholder="Rasykite slaptazodi kuo paprastesni"></div>
+        <div class="issokimas" ><input type="date" placeholder="Su gimtadieniu prisitatyk"></div>
+        <div class="issokimas" ><input type="radio" placeholder="Vyras"><label for="Vyras">Vyras</label></div>
+        <div class="issokimas" ><input type="radio" placeholder="Vyras"><label for="Moteris">Moteris</label></div>
+        <div class="issokimas" ><input type="radio" placeholder="Vyras"><label for="Kitas pasirinkimas">Kitas pasirinkimas</label></div>
+
+
+      </div>
+    </div>
+  </div>
+
 
 <div class="leftLogo">
   <img src="../../../assets/kairinisMeniu-recources/fakebook logo2.png" alt="">
   <br>
   <h5>Internetuose būk tuo, kuo nori būti! Pakviesk į draugus kaimyną ir močiutę</h5>
 </div>
-
 
 </div>
 
