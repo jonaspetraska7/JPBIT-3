@@ -26,6 +26,12 @@
 .antras_lygis{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: relative;
     top: 170px;
+    width: 1250px;
+}
+.kairinis, .desininis{
+    display: flex;
+    flex-direction: column;
 }
