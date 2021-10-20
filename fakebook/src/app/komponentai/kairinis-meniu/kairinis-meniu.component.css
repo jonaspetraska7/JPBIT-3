@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: column;
     width: 250px;
+    text-decoration: none;
 }
 
 .button{
@@ -15,6 +16,8 @@
   font-size: 12px;
   transition-duration: 0.2s;
   border-radius: 12px;
+  height: 45px;
+  width: 250px;
 }
 
 .button:hover{
