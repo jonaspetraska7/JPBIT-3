@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InteraktyvumasService } from 'src/app/interaktyvumas.service';
 
 @Component({
   selector: 'app-zinutes-ivedimas',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ZinutesIvedimasComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _interaktyvumasService: InteraktyvumasService) { }
+
+  getVal(val: any)
+  {
+    console.log(val.target.value);
+    
+    this._interaktyvumasService.sendMessage(val.target.value);
+  }
+
 
   ngOnInit(): void {
   }
+
+  
+
+
 
 }

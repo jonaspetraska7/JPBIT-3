@@ -16,13 +16,14 @@
         <div class="input-laukelis">
             <form class="">
                 <input
-                    type="search" 
+                    type="text"
                     size="405"
                     class="form-control" 
-                    placeholder="What's on your mind?">
+                    placeholder="What's on your mind?"
+                    (keyup.enter)=getVal($event)>
               </form>
         </div>
-        
+
       </div>
       <hr>
      <!-- Spalvoti mygtukai -->
