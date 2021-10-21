@@ -1,0 +1,49 @@
+.card{
+    width: fit-content;
+}
+.photos-componentas{
+    margin-top: 15px;
+    border-radius: 7px;
+    width: fit-content;
+    padding-bottom: 15px;
+}
+.photos_header{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+.photos_text{
+    
+    font-weight: 700;
+}
+.card-body{
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7px;
+    flex-wrap: wrap;
+}
+.nuotrauka{
+    width: 150px;
+    height: 150px;
+    padding-top: 7px;
+}
+.about-tekstas{
+    font-size: 15px;
+}
+.virsutine{
+    padding-top: 0px;
+}
+/* .apatine{
+    margin-bottom: 15px;
+} */
+i{
+    font-size: 20px;
+}
+/* @media (max-width: 907px) { 
+
+ } */

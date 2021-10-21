@@ -1,0 +1,48 @@
+.card{
+    width: fit-content;
+}
+.draugai-componentas{
+    margin-top: 15px;
+    border-radius: 7px;
+    width: fit-content;
+    padding-bottom: 15px;
+}
+.draugai_header{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+.draugai_text{
+    
+    font-weight: 700;
+}
+.card-body{
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7px;
+    flex-wrap: wrap;
+}
+.draugas{
+    display: flex;
+    flex-direction: column;
+}
+.nuotrauka{
+    width: 150px;
+    height: 150px;
+    padding-top: 7px;
+}
+.draugo_vardas{
+    font-size: 13px;
+    font-weight: 700;
+}
+.virsutine{
+    padding-top: 0px;
+}
+i{
+    font-size: 20px;
+}

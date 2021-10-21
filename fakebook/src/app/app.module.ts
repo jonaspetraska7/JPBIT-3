@@ -22,6 +22,8 @@ import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ProfilioCoverisComponent } from './komponentai/profilio-coveris/profilio-coveris.component';
 import { ProfilisAboutComponent } from './komponentai/profilis-about/profilis-about.component';
+import { ProfilioNuotraukosComponent } from './komponentai/profilio-nuotraukos/profilio-nuotraukos.component';
+import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profilio-draugai.component';
 
 
 
@@ -44,6 +46,8 @@ import { ProfilisAboutComponent } from './komponentai/profilis-about/profilis-ab
     
     ProfilioCoverisComponent,
     ProfilisAboutComponent,
+    ProfilioNuotraukosComponent,
+    ProfilioDraugaiComponent,
  
   ],
   imports: [
