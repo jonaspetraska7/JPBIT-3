@@ -56,10 +56,11 @@ input{
 }
 
 a{
-    padding-top: 15px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
-} 
+    text-decoration: none;
+   } 
 
 .line{
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -139,7 +140,5 @@ img{
     }
   }
 
-  .issokimas{
-      display: flex;
-      justify-content: center;
-  }
+/* bandau */
+
