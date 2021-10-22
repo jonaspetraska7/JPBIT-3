@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -24,6 +27,7 @@ import { ProfilioCoverisComponent } from './komponentai/profilio-coveris/profili
 import { ProfilisAboutComponent } from './komponentai/profilis-about/profilis-about.component';
 import { ProfilioNuotraukosComponent } from './komponentai/profilio-nuotraukos/profilio-nuotraukos.component';
 import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profilio-draugai.component';
+import { KaruseleComponent } from './karusele/karusele.component';
 
 
 
@@ -48,6 +52,7 @@ import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profili
     ProfilisAboutComponent,
     ProfilioNuotraukosComponent,
     ProfilioDraugaiComponent,
+    KaruseleComponent,
  
   ],
   imports: [
@@ -55,6 +60,8 @@ import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profili
     AppRoutingModule,
     Ng2SearchPipeModule,
     FormsModule,
+    BrowserAnimationsModule,
+    CarouselModule
     
   ],
   providers: [],
