@@ -27,7 +27,6 @@ import { ProfilioCoverisComponent } from './komponentai/profilio-coveris/profili
 import { ProfilisAboutComponent } from './komponentai/profilis-about/profilis-about.component';
 import { ProfilioNuotraukosComponent } from './komponentai/profilio-nuotraukos/profilio-nuotraukos.component';
 import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profilio-draugai.component';
-import { KaruseleComponent } from './karusele/karusele.component';
 
 
 
@@ -52,8 +51,6 @@ import { KaruseleComponent } from './karusele/karusele.component';
     ProfilisAboutComponent,
     ProfilioNuotraukosComponent,
     ProfilioDraugaiComponent,
-    KaruseleComponent,
- 
   ],
   imports: [
     BrowserModule,
