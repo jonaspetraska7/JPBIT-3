@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .background, .coverio_divas{
     position: absolute;
 }

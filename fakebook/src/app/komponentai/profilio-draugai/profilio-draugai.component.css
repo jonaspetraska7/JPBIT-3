@@ -3,22 +3,43 @@
 }
 .draugai-componentas{
     margin-top: 15px;
-    border-radius: 7px;
+    
     width: fit-content;
     padding-bottom: 15px;
+}
+.friend_title{
+     padding: 15px 20px;
+     /* padding-bottom: 0px; */
+     line-height: 12px;
 }
 .draugai_header{
     display: flex;
     flex-direction: row;
-    padding: 15px 20px;
     justify-content: space-between;
 }
 .draugai_text{
-    
     font-weight: 700;
 }
+.see-all-friends{
+    height: 30px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+.see-all-friends:hover{
+    background-color: rgb(240,242,245);
+    
+}
+.all_friends{
+    text-decoration: none;
+}
+.friend_count p{
+    margin: 0;
+    font-size: 17px;
+}
 .card-body{
-    border-radius: 20px;
+    /* border-radius: 20px; */
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -34,7 +55,16 @@
 .nuotrauka{
     width: 150px;
     height: 150px;
-    padding-top: 7px;
+    margin-top: 7px;
+    border-radius: 7px;
+}
+.nuoroda_draugas{
+    text-decoration: none;
+    color: black;
+}
+.nuoroda_draugas:hover{
+    text-decoration: underline;
+    color: black;
 }
 .draugo_vardas{
     font-size: 13px;

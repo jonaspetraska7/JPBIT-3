@@ -17,6 +17,20 @@
     
     font-weight: 700;
 }
+.all-photos-container{
+    height: 30px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+.all-photos-container:hover{
+    background-color: rgb(240,242,245);
+    
+}
+.all_photos{
+    text-decoration: none;
+}
 .card-body{
     border-radius: 20px;
     padding: 0px;
