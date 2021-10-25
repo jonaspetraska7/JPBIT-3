@@ -19,6 +19,7 @@
     height: 642px;
     background-color: #fff;
 }
+
 .pagrindinis-containeris{
     align-self: center;
     width: 100%;
@@ -41,4 +42,9 @@
 .copyright{
     padding-top: 5px;
     font-size: 12px;
+}
+.mygtukas-pajudam{
+    position: absolute;
+    top: 600px;
+    right: 100px;
 }
