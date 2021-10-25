@@ -11,8 +11,6 @@
     z-index: 999;
 }
 
-
-
 .button {
     height: 40px;
     width: 50px;
@@ -93,7 +91,8 @@ input[type=text]:focus {
 
 .manoPaskyra {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    flex: start;
     width: 180px;
     height: 35px;
     margin: 5px;
@@ -101,8 +100,6 @@ input[type=text]:focus {
     border-radius: 40px;
     font-size: 14px;
     background-color: rgba(241, 233, 233, 0.507);
-    margin: left 2px;
-    ;
 }
 
 .manoPaskyraImg {
