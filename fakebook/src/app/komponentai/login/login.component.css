@@ -12,8 +12,7 @@
     box-shadow: black;
     border-radius: 12px;
     text-align: center;
-    left: 55%;
-    top: 25%;
+    margin-top: 25%;
    }
 
 input{
@@ -143,4 +142,10 @@ img{
   float: left;
   width: 50%;
   padding: 10px;
+}
+.bandau{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 38%;
 }
