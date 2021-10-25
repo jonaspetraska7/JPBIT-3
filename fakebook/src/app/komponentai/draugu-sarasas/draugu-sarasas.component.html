@@ -16,8 +16,11 @@
             <button title="Nustatymai" class="mygtukasTritaskis"><i class="bi bi-three-dots"></i></button>
         </div>
     </div>
+
 </div>
 <div class="sarasas" *ngFor="let x of varduMasyvas | filter:searchText">
-<p>{{ x.vardas }} {{ x.pavarde }}</p>
+<img src='{{x.nuotrauka}}' class="avataras" width="35" height="35"/>
+<p class = "draugas">{{ x.vardas }} {{ x.pavarde }}</p>
 </div>
+
     
