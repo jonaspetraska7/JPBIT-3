@@ -12,3 +12,10 @@
     height: 100vh;
     background-color: rgb(240,242,245)
 }
+
+.col-6{
+    width: 700px;
+}
+.col-4{
+    float: right;
+}
