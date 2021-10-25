@@ -1,5 +1,5 @@
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
-import { Scroll } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+
 
 
 @Component({
@@ -15,15 +15,12 @@ export class ProfilioPuslapisComponent implements OnInit {
   ngOnInit(): void {
     window.setTimeout( () => {
       console.log('užkrovė');
-      window.scroll(0, 400);
       const element = document.querySelector('#scrollId');
       element?.scrollIntoView();
       
     }, 0);
     
   }
-  pajudam(){
-    window.scrollTo(0, 400);
-  }
+  
 
 }

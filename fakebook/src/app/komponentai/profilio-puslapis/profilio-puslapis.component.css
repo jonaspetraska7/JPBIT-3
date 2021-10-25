@@ -48,3 +48,8 @@
     top: 600px;
     right: 100px;
 }
+.inkaras{
+    position: absolute;
+    z-index: 100;
+    top: 250px;
+}
