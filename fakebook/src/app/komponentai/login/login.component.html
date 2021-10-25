@@ -1,30 +1,33 @@
 <div class="main">
-  
 
-  <div class="kolona"  >
-    <div class="leftLogo">
-      <img src="../../../assets/kairinisMeniu-recources/fakebook logo2.png" alt="">
-      <br>
-      <h5>Internetuose būk tuo, kuo nori būti! Pakviesk į draugus kaimyną ir močiutę</h5>
-    </div>
-    
-    </div>
 
-<div class="kolona">
-  <div class="box">
-    <br>
-    <div><input widthtype="text" class="form-control" placeholder="Username:"></div>
-    <br>
-    <div><input widthtype="text" class="form-control" placeholder="Password:"></div>
-    <br>
-    <button class="btnLogin"><a href="p1" style="color: white; padding: 1px;">Log in</a></button>
-    <a href="reset password">Forgot Password?</a>
-    <div class="line"></div>
-    <br>
-    <button class="btnRegister" type="button" (click)="popup = true">Create New Account</button>
-    <br>
+  <div class="kolona">
+    <div class="bandau">
+      <div class="leftLogo">
+        <img src="../../../assets/kairinisMeniu-recources/fakebook logo2.png" alt="">
+        <br>
+        <h5>Internetuose būk tuo, kuo nori būti! Pakviesk į draugus kaimyną ir močiutę</h5>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div class="kolona">
+    <div class="box">
+
+        <br>
+        <div><input widthtype="text" class="form-control" placeholder="Username:"></div>
+        <br>
+        <div><input widthtype="text" class="form-control" placeholder="Password:"></div>
+        <br>
+        <button class="btnLogin"><a href="p1" style="color: white; padding: 1px;">Log in</a></button>
+        <a href="reset password">Forgot Password?</a>
+        <div class="line"></div>
+        <br>
+        <button class="btnRegister" type="button" (click)="popup = true">Create New Account</button>
+        <br>
+      
+    </div>
+  </div>
 
   <div class="overlay" *ngIf="popup">
     <div class="popup">
@@ -32,20 +35,21 @@
       <a class="close" (click)="popup = false">&times;</a>
       <div class="content">
         <p>Jei neturi draugu, cia ju ir nerasi</p>
-        
-        
-          <div><input widthtype="text" class="form-control" placeholder="Vardas"></div>
-          <br>
-          <div><input widthtype="text" class="form-control" placeholder="Pavarde"></div>
-          <br>
-          <div><input widthtype="text" class="form-control" placeholder="Elektronis Pastas"></div>
-          <br>
-          <div><input widthtype="text" class="form-control" placeholder="Slaptazodis"></div>
-          <br>
-          <div><input type="date" class="form-control" placeholder="Gimimo data"></div>
-          <br>
-          <button  class="btnLogin"><a href="a1" style="color: white; padding: 1px;">Ar tu tikras del registracijos????</a></button>
-      
+
+
+        <div><input widthtype="text" class="form-control" placeholder="Vardas"></div>
+        <br>
+        <div><input widthtype="text" class="form-control" placeholder="Pavarde"></div>
+        <br>
+        <div><input widthtype="text" class="form-control" placeholder="Elektronis Pastas"></div>
+        <br>
+        <div><input widthtype="text" class="form-control" placeholder="Slaptazodis"></div>
+        <br>
+        <div><input type="date" class="form-control" placeholder="Gimimo data"></div>
+        <br>
+        <button class="btnLogin"><a href="a1" style="color: white; padding: 1px;">Ar tu tikras del
+            registracijos????</a></button>
+
 
       </div>
     </div>
@@ -55,4 +59,3 @@
 
 
 </div>
-
