@@ -1,26 +1,4 @@
-.karkasas{
-    width: 700px;
-    height: 220px;
-    display: flex;
-    background-color: #f7f7f7; 
-    position: relative; 
-}
-.mgt{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: absolute;
-    left: 675px;
-    top: 83px;
-    border: none;
-    background-color: white;
-    box-shadow: 2px 2px 10px grey;
-    
-}
-.mgt:hover{
-    background-color: rgb(240, 232, 232);
-    
-}
+
 
 .sukurti {
     height: 200px;
@@ -28,12 +6,13 @@
     background-color: rgba(209, 208, 208, 0.938);
     margin: 10px;
     border-radius: 10px;
-    position: relative;
+   
     
 }
 .create{
-    position: absolute;
+
     color: black;
+    top: 170px;
     left: 23px;
 
 }
@@ -42,7 +21,7 @@
     height: 200px;
     width: 120px;
     background-color: gray;
-    margin: 10px;
+    margin: 0px;
     border-radius: 10px;
     text-align:center;
     color: white; 
@@ -66,9 +45,7 @@
 }
  p {
     position: absolute;
-    top: 170px;
-    left: 10%;
+    top: 150px;
     font-size: 14px;
     font-weight: 600;  
 }
-

@@ -15,24 +15,24 @@ export class StoryMeniuComponent implements OnInit {
 
   customOptions: OwlOptions = {
     loop: true,
-    mouseDrag: false,
+    mouseDrag: true,
     touchDrag: false,
     pullDrag: false,
     dots: false,
     navSpeed: 700,
-    navText: ['', ''],
+    navText: ['<i class="fa-chevron-left"></i>', '<i class="fa-chevron-right></i>"'],
     responsive: {
       0: {
-        items: 1
-      },
-      400: {
         items: 2
       },
-      740: {
-        items: 3
+      400: {
+        items: 4
+      },
+      700: {
+        items: 5
       },
       940: {
-        items: 4
+        items: 5
       }
     },
     nav: true
