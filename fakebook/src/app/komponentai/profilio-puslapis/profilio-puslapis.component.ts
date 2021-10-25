@@ -16,8 +16,10 @@ export class ProfilioPuslapisComponent implements OnInit {
     window.setTimeout( () => {
       console.log('užkrovė');
       window.scroll(0, 400);
+      const element = document.querySelector('#scrollId');
+      element?.scrollIntoView();
       
-    }, 3000);
+    }, 0);
     
   }
   pajudam(){
