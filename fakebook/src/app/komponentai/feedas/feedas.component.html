@@ -34,7 +34,7 @@
                 <img src="../../../assets/feedasImg/man.png" alt="avatar">
             </a>
             <div class="cmt-form">
-                <textarea class="form-control" placeholder="Write a comment..." name=""></textarea>
+                <input class="form-control" placeholder="Write a comment..." name="" (keyup.enter)=getVal($event)>
             </div>
         </li>
         </ul>

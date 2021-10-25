@@ -14,8 +14,18 @@ export class FeedasComponent implements OnInit {
   count: number = 0;
   values: Array<any> = [];
   messages: Array<any> = [];
+  reply: Array<any> = [];
   
   constructor(private _interaktyvumasService: InteraktyvumasService) { }
+
+  getVal(val: any)
+  {
+    console.log(val.target.value);
+
+    this
+    
+    this._interaktyvumasService.sendMessage(val.target.value);
+  }
 
   ngOnInit() {
     this._interaktyvumasService.feedoZinute$
