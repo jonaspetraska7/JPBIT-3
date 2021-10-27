@@ -28,6 +28,15 @@ import { ProfilisAboutComponent } from './komponentai/profilis-about/profilis-ab
 import { ProfilioNuotraukosComponent } from './komponentai/profilio-nuotraukos/profilio-nuotraukos.component';
 import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profilio-draugai.component';
 
+import { AngularFireModule} from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireAuthModule  } from '@angular/fire/compat/auth';
+
+import { environment } from 'src/environments/environment';
+
+
+
+
 
 
 
@@ -58,8 +67,11 @@ import { ProfilioDraugaiComponent } from './komponentai/profilio-draugai/profili
     Ng2SearchPipeModule,
     FormsModule,
     BrowserAnimationsModule,
-    CarouselModule
-    
+    CarouselModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
+    AngularFirestoreModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

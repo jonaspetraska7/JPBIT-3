@@ -95,6 +95,10 @@ input[type=text]:focus {
     background-color: rgba(241, 233, 233, 0.507);
 }
 
+p.linkas {
+    align-items: center;
+}
+
 .manoPaskyraImg {
     display: flex;
     margin-top: 2px;
