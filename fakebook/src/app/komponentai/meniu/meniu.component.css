@@ -93,6 +93,7 @@ input[type=text]:focus {
     border-radius: 30px;
     font-size: 14px;
     background-color: rgba(241, 233, 233, 0.507);
+    
 }
 
 p.linkas {
