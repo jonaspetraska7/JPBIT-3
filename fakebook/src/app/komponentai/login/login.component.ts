@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseService } from 'src/app/firebase.service';
 
 
 @Component({
@@ -8,10 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
-
+  constructor( private auth: FirebaseService ) { 
+  }
+ 
   ngOnInit(): void {
   }
+
+  login(){
+    this.auth.login('mauglis','nugaletojas');
+  }
+
 popup = false;
 }
+
 
