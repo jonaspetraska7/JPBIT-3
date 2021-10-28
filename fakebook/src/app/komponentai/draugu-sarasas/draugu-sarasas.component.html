@@ -18,9 +18,9 @@
     </div>
 
 </div>
-<div class="sarasas" *ngFor="let x of varduMasyvas | filter:searchText">
-<img src='{{x.nuotrauka}}' class="avataras" width="35" height="35"/>
-<p class = "draugas">{{ x.vardas }} {{ x.pavarde }}</p>
+<div class="sarasas" *ngFor="let x of Vartotojas | filter:searchText">
+
+<p class = "draugas"><i class="bi bi-emoji-smile-upside-down"></i>&nbsp;{{ x.Vardas }} {{ x.Pavarde }}</p>
 </div>
 
     
