@@ -11,9 +11,11 @@ import { LoginComponent } from './komponentai/login/login.component';
 import { ProfilioPuslapisComponent } from './komponentai/profilio-puslapis/profilio-puslapis.component';
 import { LaikinasPuslapisComponent } from './puslapiai/laikinas-puslapis/laikinas-puslapis.component';
 
+import{AngularFireAuthGuard } from '@angular/fire/compat/auth-guard';
+
 const routes: Routes = [
-  {path: '', component: PagrindinispuslapisComponent},
-  {path: 'd1', component: DrauguSarasasComponent},
+  {path: '', component: PagrindinispuslapisComponent, canActivate: [AngularFireAuthGuard] },
+  {path: 'd1', component: DrauguSarasasComponent,canActivate: [AngularFireAuthGuard] },
   {path: 'k1', component: KairinisMeniuComponent},
   {path: 's1', component: StoryMeniuComponent},
   {path: 'z1', component: ZinutesIvedimasComponent},
@@ -23,6 +25,7 @@ const routes: Routes = [
   {path: 'l1', component: LoginComponent},
   {path: 'a1', component: ProfilioPuslapisComponent},
   {path:'lkn',component: LaikinasPuslapisComponent}
+  
 ];
 
 @NgModule({
