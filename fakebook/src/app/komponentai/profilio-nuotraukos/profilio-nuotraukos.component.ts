@@ -27,11 +27,10 @@ export class ProfilioNuotraukosComponent implements OnInit {
   }
  
   isrikiuoti(){
-    console.log(this.atsakymas);
+    
     for (const [key, value] of Object.entries(this.atsakymas)) {
-      console.log(key, value);
       this.nuotrauku_sarasas.push(value);
-      console.log(this.nuotrauku_sarasas);
+      
       
     }
       
