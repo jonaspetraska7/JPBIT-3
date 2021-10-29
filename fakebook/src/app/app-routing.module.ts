@@ -15,7 +15,7 @@ import{AngularFireAuthGuard } from '@angular/fire/compat/auth-guard';
 
 const routes: Routes = [
   {path: '', component: PagrindinispuslapisComponent, canActivate: [AngularFireAuthGuard] },
-  {path: 'd1', component: DrauguSarasasComponent, canActivate: [AngularFireAuthGuard] },
+  {path: 'd1', component: DrauguSarasasComponent,canActivate: [AngularFireAuthGuard] },
   {path: 'k1', component: KairinisMeniuComponent},
   {path: 's1', component: StoryMeniuComponent},
   {path: 'z1', component: ZinutesIvedimasComponent},
