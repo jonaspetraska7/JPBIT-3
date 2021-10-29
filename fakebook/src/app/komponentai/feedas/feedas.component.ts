@@ -1,7 +1,5 @@
-import { ThisReceiver } from '@angular/compiler';
-import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 import { Component, OnInit, Input } from '@angular/core';
-import { InteraktyvumasService } from 'src/app/interaktyvumas.service';
+import { FirebaseService } from 'src/app/firebase.service';
 
 @Component({
   selector: 'app-feedas',
@@ -10,37 +8,27 @@ import { InteraktyvumasService } from 'src/app/interaktyvumas.service';
 })
 export class FeedasComponent implements OnInit {
 
-  zinuteStr: string = "";
-  count: number = 0;
-  values: Array<any> = [];
+  a: Array<any> = [
+    {key:""},
+    {value:""}
+  ]
   messages: Array<any> = [];
-  reply: Array<any> = [];
   
-  constructor(private _interaktyvumasService: InteraktyvumasService) { }
-
-  getVal(val: any)
-  {
-    console.log(val.target.value);
-
-    this
-    
-    this._interaktyvumasService.sendMessage(val.target.value);
-  }
+ 
+  
+  constructor(private _firebaseService: FirebaseService) { }
 
   ngOnInit() {
-    this._interaktyvumasService.feedoZinute$
-    .subscribe(
-      Message => {
+    this._firebaseService.currentMessage$
+    .subscribe((Message: any ) => {
+        console.log(Message);
+        this.messages = Object.values(Message);
 
-      this.count ++; 
-      this.messages.unshift(Message);
-      this.values.push(this.count);
-      
+        console.log(this.messages);
 
-      console.log(this.values);
-      console.log(this.messages);
+        //console.log(Object.keys(object1));
+
       }
     )
-
   }
 }

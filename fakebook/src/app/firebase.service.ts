@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { Subject } from 'rxjs';
 import { Router } from '@angular/router';
 
 @Injectable({
@@ -7,9 +9,16 @@ import { Router } from '@angular/router';
 })
 export class FirebaseService {
 
+  private messageSource = new Subject();
+  currentMessage$ = this.messageSource.asObservable();
+  testMessage: any[] = [];
+
   constructor(
     private afAuth: AngularFireAuth,
-    private router: Router) { }
+    private router: Router,
+    private firestore: AngularFirestore) { this.currentMessage$ = this.firestore.collection('L6rFagGHczb57y2qxrMlgpV3pFA3').doc('feedas').valueChanges();
+    console.log(this.currentMessage$);
+  }
 
 
 login(email: string, password: string){
