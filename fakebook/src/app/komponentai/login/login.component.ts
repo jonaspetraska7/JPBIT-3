@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
-    this.auth.login('mauglis@mauglis.lt','mauglis');
+    this.auth.login('mauglis','nugaletojas');
   }
 
 popup = false;
