@@ -22,11 +22,10 @@ export class FeedasComponent implements OnInit {
     this._firebaseService.currentMessage$
     .subscribe((Message: any ) => {
         console.log(Message);
-        this.messages = Object.values(Message);
-
+        this.messages = Message.map((item: { content: any; }) => item.content);
         console.log(this.messages);
 
-        //console.log(Object.keys(object1));
+  
 
       }
     )

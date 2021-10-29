@@ -16,8 +16,7 @@ export class FirebaseService {
   constructor(
     private afAuth: AngularFireAuth,
     private router: Router,
-    private firestore: AngularFirestore) { this.currentMessage$ = this.firestore.collection('L6rFagGHczb57y2qxrMlgpV3pFA3').doc('feedas').valueChanges();
-    console.log(this.currentMessage$);
+    private firestore: AngularFirestore) { this.currentMessage$ = this.firestore.collection('Irasai', ref=> ref.orderBy('createdAt', 'desc')).valueChanges();
   }
 
 
