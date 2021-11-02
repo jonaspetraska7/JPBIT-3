@@ -241,3 +241,9 @@ a:hover{
 .recent-highlight {
     background: #FF6C60;
 }
+
+youtube-player {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

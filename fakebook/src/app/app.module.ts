@@ -34,6 +34,9 @@ import { AngularFireAuthModule  } from '@angular/fire/compat/auth';
 
 import { environment } from 'src/environments/environment';
 
+import { YouTubePlayerModule } from "@angular/youtube-player";
+import getVideoId from 'get-video-id';
+
 
 
 
@@ -70,7 +73,8 @@ import { environment } from 'src/environments/environment';
     CarouselModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    YouTubePlayerModule,
    
   ],
   providers: [],

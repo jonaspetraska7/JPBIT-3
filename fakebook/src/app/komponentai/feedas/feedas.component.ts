@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import getVideoId from 'get-video-id';
 import { FirebaseService } from 'src/app/firebase.service';
 
 @Component({
@@ -7,15 +8,13 @@ import { FirebaseService } from 'src/app/firebase.service';
   styleUrls: ['./feedas.component.css']
 })
 export class FeedasComponent implements OnInit {
-
+  videoArray: Array<any> = [];
   a: Array<any> = [
     {key:""},
     {value:""}
   ]
   messages: Array<any> = [];
-  
- 
-  
+    
   constructor(private _firebaseService: FirebaseService) { }
 
   ngOnInit() {
@@ -24,10 +23,24 @@ export class FeedasComponent implements OnInit {
         console.log(Message);
         this.messages = Message.map((item: { content: any; }) => item.content);
         console.log(this.messages);
-
-  
-
+        for (let i = 0; i < this.messages.length; i++ ){
+          const {id} = getVideoId(this.messages[i]) 
+          if (id == null){
+            this.videoArray.push("");
+          }
+          else{
+            this.videoArray.push(id);
+          }
+        }  
+        console.log(this.videoArray)     
       }
     )
   }
+
+
+
+
+
+ 
+
 }

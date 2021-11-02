@@ -1,5 +1,5 @@
 
-<div class="panel" *ngFor="let message of messages">
+<div class="panel" *ngFor="let message of messages; let i = index">
     <div class="panel-body">
         <div class="fb-user-details">
         <div class="fb-user-thumb">
@@ -10,6 +10,15 @@
         </div>
         <p class="fb-user-status"> 
             {{message}}
+            {{videoArray[i]}}
+            <youtube-player
+  videoId="{{videoArray[i]}}"
+  suggestedQuality="highres" 
+  [height]="250" 
+  [width]="500" 
+  [startSeconds]="4"
+  [endSeconds]="8">
+</youtube-player>
         </p>
         <div class="fb-status-container fb-border">
             <div class="fb-time-action">
