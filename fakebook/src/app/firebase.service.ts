@@ -31,7 +31,11 @@ login(email: string, password: string){
   })
 }
 
-
+logout(){
+  this.afAuth.signOut().then(() => {
+    this.router.navigate(['l1']);
+  });
+}
 //draugu sarasa *Gavimas*
 
 

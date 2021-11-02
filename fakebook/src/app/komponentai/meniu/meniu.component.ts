@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseService } from 'src/app/firebase.service';
 
 @Component({
   selector: 'app-meniu',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MeniuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private auth: FirebaseService) { }
 
   ngOnInit(): void {
   }
-
+logout(){
+  this.auth.logout();
+}
 }
