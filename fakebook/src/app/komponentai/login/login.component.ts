@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { FirebaseService } from 'src/app/firebase.service';
 
 
@@ -9,10 +11,15 @@ import { FirebaseService } from 'src/app/firebase.service';
 })
 export class LoginComponent implements OnInit {
 
-  constructor( private auth: FirebaseService ) { 
+  constructor( private auth: FirebaseService, private firestore: AngularFirestore, private afAuth: AngularFireAuth ) { 
   }
- 
+ Vartotojas : any[] = [];
   ngOnInit(): void {
+  }
+
+
+  pridetiVartotoja(){
+    this.auth.emailSignup("Raide@raide.lt","Auksine");
   }
 
   login(){
@@ -21,5 +28,4 @@ export class LoginComponent implements OnInit {
 
 popup = false;
 }
-
 

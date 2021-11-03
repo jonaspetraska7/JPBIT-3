@@ -16,45 +16,53 @@ export class FirebaseService {
   constructor(
     private afAuth: AngularFireAuth,
     private router: Router,
-    private firestore: AngularFirestore) { this.currentMessage$ = this.firestore.collection('Irasai', ref=> ref.orderBy('createdAt', 'desc')).valueChanges();
+    private firestore: AngularFirestore) {
+      this.currentMessage$ = this.firestore.collection('Irasai', ref => ref.orderBy('createdAt', 'desc')).valueChanges();
   }
 
 
-login(email: string, password: string){
-  this.afAuth.signInWithEmailAndPassword(email, password)
-  .then(value => {
-    console.log('Nice, it worked!');
-    this.router.navigateByUrl('');
-  })
-  .catch(err => {
-    console.log("Something went wrong: ", err.message);
-  })
-}
+  login(email: string, password: string) {
+    this.afAuth.signInWithEmailAndPassword(email, password)
+      .then(value => {
+        console.log('Nice, it worked!');
+        this.router.navigateByUrl('');
+      })
+      .catch(err => {
+        console.log("Something went wrong: ", err.message);
+      })
+  }
 
-logout(){
-  this.afAuth.signOut().then(() => {
-    this.router.navigate(['l1']);
-  });
-}
-//draugu sarasa *Gavimas*
+  emailSignup(email: string, password: string) {
+    this.afAuth.createUserWithEmailAndPassword(email, password).then(value => {
+      console.log('sekme', value);
+      this.router.navigateByUrl('a1')
+    })
+  }
 
-
-//feedas *Gavimas*
-
-
-//zinutes-ivedimas *Siuntimas*
-
-
-//profilis *Gavimas*
+  logout() {
+    this.afAuth.signOut().then(() => {
+      this.router.navigate(['l1']);
+    });
+  }
+  //draugu sarasa *Gavimas*
 
 
-//login *Auth Modulis*
+  //feedas *Gavimas*
 
 
-//register *Auth Modulis*
+  //zinutes-ivedimas *Siuntimas*
 
 
-//register *Siuntimas user info i DB* (Jei spesim)
+  //profilis *Gavimas*
+
+
+  //login *Auth Modulis*
+
+
+  //register *Auth Modulis*
+
+
+  //register *Siuntimas user info i DB* (Jei spesim)
 
 
 
